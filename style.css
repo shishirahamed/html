@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: belvatica,arial,sans-sarif;
+}
+.header-area{
+	background: #3B5998;
+	padding: 15px 0;
+}
+.logo-area{
+	width: 50%;
+	float: left;
+}
+.login-area{
+	width: 50%;
+	float: left;
+}
+.header-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.middle-area{
+	width: 80%;
+	margin: auto;
+}
+.login-first{
+	float: left;
+}
+.login-second{
+	float: left;
+}
+.login-submit{
+	float: left;
+}
+.amader-login:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.form{
+	float: right;
+}
+.login-area input{
+	font-size: 13px;
+	display: block;
+	margin-right: 10px;
+	border: 1px solid #1d2a5B;
+}
+.login-area label{
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	margin-bottom: 6px;
+	display: block;
+}
+.logo-area a{
+	margin-top: 12px;
+	display: block;
+}
+.login-second a{
+	color: #9cb4d8;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.login-submit input{
+	background: #4267b2;
+	border: 1px solid #4267b2;
+	color: #fff;
+	cursor: pointer;
+	transition: 5s;
+	margin-top: 25px;
+}
+.login-submit:hover{
+	background: #365899;
+	border: 1px solid #365899;
+}
+.singup-area{
+	background:
+	linear-gradient(#ffffff, #d4d9f8);
+}
+.singup-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.singup-left{
+	width: 60%;
+	float: left;
+}
+.singup-right{
+	width: 40%;
+	float: left;
+}
+.singup-left p{
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	width: 80%;
+	padding: 30px;
+	margin: auto;
+    margin-left: 17px;
+	margin-left: -10px;
+}
+.singup-right h2{
+	font-size: 39px;
+	color: #333;
+	margin: 30px;
+    margin-left: auto;
+}
+.singup-right > p{
+	font-size: 22px;
+	color: #333;
+	margin: 26px 0;
+    margin-left: auto;
+}
+.singup-right input[type=text],
+.singup-right input[type=password]{
+	width: 100%;
+	font-size: 18px;
+	padding: 6px;
+	margin: 5px 0;
+	border-radius: 3px;
+	border: 1px solid #bdc7d8;
+	box-sizing: border-box;
+}
+.singup-right .username:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.singup-right .username input:nth-child(1){
+	width: 49%;
+	float: left;
+}
+.singup-right .username input:nth-child(2){
+	width: 49%;
+	float: right;
+}
+.birth-day h4{
+	font-size: 18px;
+	color:#333;
+	font-size: 20px;
+	margin: 20px 0;
+	font-weight: none;
+}
+.bbb-option select{
+	padding:3px;
+	font-size:15px;
+	border: 1px solid #bdc7d8;
+}
+
+
+
+
+
+
+
+
+
+
+

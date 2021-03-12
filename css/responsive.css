@@ -1,0 +1,29 @@
+
+/* responsive part start here */
+
+
+@media all and  (max-width:932px){
+	.middle-area {
+		width: 95%;
+}
+@media all and  (max-width:785px){
+	.login-first{
+		float: none;
+	}
+	.login-second{
+		float: none;
+	}
+	.login-submit{
+		float: none;
+	}
+}
+@media all and  (max-width:290px){
+	.logo-area {
+		width: 50%;
+		float: none;
+	}
+	.login-area {
+		width: 51%;
+		float: none;
+	}
+}
